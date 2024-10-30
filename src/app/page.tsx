@@ -15,7 +15,6 @@ export default function Home() {
       <div className="max-w-[1440px] mx-auto overflow-hidden">
       <Aboutsec/>
       </div>
-      
     </>
   );
 }
