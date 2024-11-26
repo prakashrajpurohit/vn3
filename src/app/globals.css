@@ -20,3 +20,12 @@ body {
 
 }
 
+.background-img {
+  background-image: url('/Banner 1.jpg'); /* Corrected path */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+}
+
+

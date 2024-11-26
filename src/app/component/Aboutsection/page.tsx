@@ -5,6 +5,14 @@ import Image from "next/image";
 import Lineimg from "../../../../public/1 line white 1.png";
 import Lineimg2 from "../../../../public/1 line white 1 (1).png";
 import Lineimg3 from "../../../../public/White line logo.png";
+import Mask from "../../../../public/Mask group (5).png";
+import recentagle from "../../../../public/Rectangle 184.png";
+import AI from "../../../../public/Ai.png";
+import Uiux from "../../../../public/uiux.png";
+import Vrar from "../../../../public/vrar.png";
+import Recen199 from "../../../../public/Mask group (7).png";
+import Ellipse from "../../../../public/Ellipse 61.png";
+
 import { FaInstagram, FaLinkedinIn } from "react-icons/fa";
 import { RiTwitterXFill } from "react-icons/ri";
 import Faq from "../Mobile-faq/page";
@@ -25,9 +33,14 @@ export default function Page() { // Capitalize component name
       <div className="text-[#ffffff] sm:block hidden py-[50px] xl:px-0 px-[20px]">
         <div className="max-w-[1204px] mx-auto h-[694px] relative ">
           <div
-            className="lg:max-w-[694px] max-w-[494px] lg:h-[694px] h-[494px] bg-[#3E3E3E] z-10"
+            className="lg:max-w-[694px] max-w-[494px] lg:h-[694px] h-[494px]  z-10"
             data-aos="fade-right"
-          ></div>
+          >
+            <Image
+              src={recentagle}
+              alt="Logo"
+              className=""/>
+          </div>
           <div
             className="z-20 absolute lg:top-[20%] top-[7%] lg:right-[68px] right-[12px] lg:max-w-[513px] max-w-[433px] "
    
@@ -39,14 +52,11 @@ export default function Page() { // Capitalize component name
             </h1>
             <div className="lg:text-[18px] text-[17px] font-medium text-[#ffffff]">
               <p className="font-poppins  ">
-                Lorem Ipsum is simply dummy text of the printing and setting
-                industry. Lorem Ipsum has been the industrys standard dummy
-                text ever since the 1500
+              At VentureNxt, we believe that the journey from a business idea to a thriving enterprise should be met with clarity, confidence, and dynamic support. Our platform is designed for visionaries, whether they're entrepreneurs ready to kick-start their first venture or established enterprises seeking new growth pathways. 
               </p>
 
               <p className="lg:pt-[30px] pt-[20px] font-poppins">
-                when an unknown printer took a galley of type and scrambled it
-                to make a type specimen book.
+              With us, every business has a partner in navigating the complex landscape of today’s competitive market.
               </p>
             </div>
             <div className="text-[#ffffff] mt-[40px]">
@@ -70,12 +80,12 @@ export default function Page() { // Capitalize component name
              
             </h1>
             <div className="text-[16px] font-medium text-[#ffffff] pt-[15px]">
-              <p className="text-center leading-[25px] font-poppins">
-              Lorem Ipsum is simply dummy text of the printing and setting industry. Lorem Ipsum has been the industrys
+            <p className="font-poppins  ">
+              At VentureNxt, we believe that the journey from a business idea to a thriving enterprise should be met with clarity, confidence, and dynamic support. Our platform is designed for visionaries, whether they're entrepreneurs ready to kick-start their first venture or established enterprises seeking new growth pathways. 
               </p>
 
-              <p className="pt-[30px] text-center leading-[25px] font-poppins">
-              when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+              <p className="lg:pt-[30px] pt-[20px] font-poppins">
+              With us, every business has a partner in navigating the complex landscape of today’s competitive market.
               </p>
             </div>
             <div className="text-[#ffffff] mt-[34px] ">
@@ -85,10 +95,13 @@ export default function Page() { // Capitalize component name
             </div>
           </div>
           <div
-            className="max-w-[378px] mx-auto mt-[50px]  h-[378px] bg-[#3E3E3E] "
+            className="max-w-[378px] mx-auto mt-[50px]  h-[378px]  "
             data-aos="fade-left"
           >
-            
+            <Image
+              src={recentagle}
+              alt="Logo"
+              className=""/>
           </div>
           
         </div>
@@ -97,16 +110,13 @@ export default function Page() { // Capitalize component name
       <div className="text-[#ffffff] sm:block hidden py-[50px] xl:px-[0px] px-[20px]">
         <div className="max-w-[1204px] mx-auto h-[694px] relative  flex flex-row-reverse">
           <div
-            className="lg:max-w-[694px] max-w-[494px] lg:h-[694px] h-[494px] bg-[#3E3E3E] z-10"
+            className="lg:max-w-[694px] max-w-[494px] lg:h-[694px] h-[494px]  z-10"
             data-aos="fade-left"
           >
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt,
-            asperiores ducimus at eos harum praesentium alias quis earum cumque
-            recusandae iste officiis nihil veritatis beatae quibusdam dolores
-            blanditiis deleniti ab. Lorem, ipsum dolor sit amet consectetur
-            adipisicing elit. Magni fuga, voluptatem vero numquam est mollitia
-            perspiciatis rerum, totam nemo cumque quae incidunt velit, harum
-            animi doloremque at asperiores qui aliquid.
+            <Image
+              src={Mask}
+              alt="Logo"
+              className=""/>
           </div>
           <div
             className="z-20 absolute lg:top-[20%] top-[10%] left-[0px] lg:my-[0px] my-auto lg:max-w-[765px] max-w-[450px]"
@@ -114,7 +124,7 @@ export default function Page() { // Capitalize component name
           >
             <h2 className="lg:text-[36px] text-[30px] text-[#ffffff] font-handel">Growth Consulting</h2>
             <h1 className="font-bold lg:text-[52px] text-[46px] lg:leading-[60px] leading-[52px] font-handel">
-              Why A Brand Need <span className="text-[#1654C1]">Branding</span>{" "}
+              Why A Brand Need <br /><span className="text-[#1654C1]">Branding</span>{" "}
               And <span className="text-[#1654C1]">Growth Consulting</span>{" "}
             </h1>
             
@@ -145,10 +155,13 @@ export default function Page() { // Capitalize component name
             </div>
           </div>
           <div
-            className="max-w-[378px] mx-auto mt-[50px]  h-[378px] bg-[#3E3E3E] "
+            className="max-w-[378px] mx-auto mt-[50px]  h-[378px]  "
             data-aos="fade-left"
           >
-            
+            <Image
+              src={Mask}
+              alt="Logo"
+              className=""/>
           </div>
           
         </div>
@@ -158,31 +171,42 @@ export default function Page() { // Capitalize component name
 <div className="sm:px-[0px] px-[20px]">
       <div className="text-[#ffffff] sm:block hidden  ">
         <div className="max-w-[1204px] h-[800px] mx-auto  flex items-center justify-center">
-          <div className=" text-center ">
+          <div className=" text-center relative">
             <h1 className="font-bold lg:text-[52px] text-[48px] font-handel uppercase " data-aos="fade-down">
               Services offered by
             </h1>
             <Image
               src={Lineimg}
               alt="Logo"
-              className=" mx-auto pt-[30px] lg:w-[full] w-[330px] "
+              className=" mx-auto  pt-[30px] lg:w-[full] w-[330px]  "
               data-aos="fade-up"
+            />
+            <Image
+              src={Ellipse}
+              alt="Logo"
+              className=" absolute top-5 max-w-[1000px] mx-auto  left-[-175px]"
             />
           </div>
         </div>
       </div>
+
       {/* third section mobile responsive */}
       <div className="text-[#ffffff]   sm:hidden block">
         <div className="max-w-[1204px] h-[800px] mx-auto  flex items-center justify-center">
-          <div className=" text-center ">
+          <div className=" text-center relative">
             <h1 className="leading-[46px] text-[44px] font-handel uppercase" data-aos="fade-down">
               Services <br /> Offered By
             </h1>
             <Image
               src={Lineimg2}
               alt="Logo"
-              className=" mx-auto pt-[30px]"
+              className=" mx-auto pt-[30px] "
               data-aos="fade-up"
+            />
+            <Image
+              src={Ellipse}
+              alt="Logo"
+              className=" absolute   max-w-[600px] mx-auto left-[-125px]"
             />
           </div>
         </div>
@@ -221,22 +245,21 @@ export default function Page() { // Capitalize component name
         <div className="max-w-[1204px] mx-auto  py-[30px]">
           <h2 className="sm:text-[36px] text-[30px] text-[#ffffff] font-handel">Glimes Of Services</h2>
         </div>
-        <div className="max-w-[1204px] mx-auto grid sm:grid-cols-2 grid-cols-1 gap-3">
-          <div className="col-span-1 ">
+        <div className="max-w-[1204px] mx-auto grid sm:grid-cols-2 grid-cols-1 gap-5">
+          <div className="col-span-1 " data-aos="fade">
             <div className="">
               <Image
-                src={""}
+                src={Recen199}
                 alt="Logo"
-                className=" h-[400px] bg-[#ae7d7d] rounded-tr-[14px] rounded-tl-[14px]"
+                className=" h-[400px]  rounded-tr-[14px] rounded-tl-[14px]"
+                
               />
               <div className="bg-[#ffffff] p-[14px] rounded-br-[14px] rounded-bl-[14px]">
                 <h2 className="sm:text-[36px] font-handel text-[26px] sm:leading-[40px] leading-[32px] text-[#000000]">
                   Computer Generated images
                 </h2>
                 <p className="sm:text-[18px] text-[14px] font-poppins sm:leading-[25px] leading-[20px] font-medium text-[#000000] mt-[12px]">
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum has been the industrys
-                  standard dummy text ever since the 1500
+                Bring your concepts to life with photorealistic visuals and immersive animations. At VentureNxt, our CGI services allow you to showcase ideas with stunning detail and realism, ideal for product previews, architectural renderings, and visual storytelling. With CGI, we turn imagination into high-quality digital experiences that captivate and convince.
                 </p>
                 <div className="text-[#ffffff] mt-[30px]">
                   <button className="text-[20px] px-[35px] font-handel bg-[#002BAA] rounded-full py-[10px] flex items-center justify-center">
@@ -247,21 +270,19 @@ export default function Page() { // Capitalize component name
             </div>
           </div>
 
-          <div className="col-span-1 ">
+          <div className="col-span-1 " data-aos="fade">
             <div className="">
               <Image
-                src={""}
+                src={AI}
                 alt="Logo"
-                className=" h-[400px] bg-[#ae7d7d] rounded-tr-[14px] rounded-tl-[14px]"
+                className=" h-[400px]  rounded-tr-[14px] rounded-tl-[14px]"
               />
               <div className="bg-[#ffffff] p-[14px] rounded-br-[14px] rounded-bl-[14px]">
                 <h2 className="sm:text-[36px] font-handel text-[26px] sm:leading-[40px] leading-[32px] text-[#000000]">
                 Artificial intelligence
                 </h2>
                 <p className="sm:text-[18px] font-poppins text-[14px] sm:leading-[25px] leading-[20px] font-medium text-[#000000] mt-[12px]">
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum has been the industrys
-                  standard dummy text ever since the 1500
+                Revolutionize your business processes with our AI-driven solutions. From predictive analytics to machine learning models, VentureNxt integrates AI to enhance decision-making, automate workflows, and deliver personalized customer experiences. Our AI capabilities empower you to stay ahead with smart, data-driven insights.
                 </p>
                 <div className="text-[#ffffff] mt-[30px]">
                   <button className="text-[20px] font-handel px-[35px] bg-[#002BAA] rounded-full py-[10px] flex items-center justify-center">
@@ -272,21 +293,19 @@ export default function Page() { // Capitalize component name
             </div>
           </div>
 
-          <div className="col-span-1 ">
+          <div className="col-span-1 " data-aos="fade">
             <div className="">
               <Image
-                src={""}
+                src={Uiux}
                 alt="Logo"
-                className=" h-[400px] bg-[#ae7d7d] rounded-tr-[14px] rounded-tl-[14px]"
+                className=" h-[400px]  rounded-tr-[14px] rounded-tl-[14px]"
               />
               <div className="bg-[#ffffff] p-[14px] rounded-br-[14px] rounded-bl-[14px]">
                 <h2 className="sm:text-[36px] font-handel text-[26px] sm:leading-[40px] leading-[32px] text-[#000000]">
                 UI/UX
                 </h2>
                 <p className="sm:text-[18px] font-poppins text-[14px] sm:leading-[25px] leading-[20px] font-medium text-[#000000] mt-[12px]">
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum has been the industrys
-                  standard dummy text ever since the 1500
+                Create intuitive, user-friendly interfaces that enhance engagement and satisfaction. VentureNxt’s UI/UX design team crafts experiences centered around user needs, ensuring each interaction is seamless and meaningful. Whether you’re building an app, website, or digital platform, our designs focus on simplicity, functionality, and elegance.
                 </p>
                 <div className="text-[#ffffff] mt-[30px]">
                   <button className="text-[20px] font-handel px-[35px] bg-[#002BAA] rounded-full py-[10px] flex items-center justify-center">
@@ -297,21 +316,19 @@ export default function Page() { // Capitalize component name
             </div>
           </div>
 
-          <div className="col-span-1 ">
+          <div className="col-span-1 " data-aos="fade">
             <div className="">
               <Image
-                src={""}
+                src={Vrar}
                 alt="Logo"
-                className=" h-[400px] bg-[#ae7d7d] rounded-tr-[14px] rounded-tl-[14px]"
+                className=" h-[400px] rounded-tr-[14px] rounded-tl-[14px]"
               />
               <div className="bg-[#ffffff] p-[14px] rounded-br-[14px] rounded-bl-[14px]">
                 <h2 className="font-handel sm:text-[36px] text-[26px] sm:leading-[40px] leading-[32px] text-[#000000]">
                 VR/AR
                 </h2>
                 <p className="sm:text-[18px] font-poppins text-[14px] sm:leading-[25px] leading-[20px] font-medium text-[#000000] mt-[12px]">
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum has been the industrys
-                  standard dummy text ever since the 1500
+                Step into the future with immersive AR and VR experiences. At VentureNxt, we blend cutting-edge technology with creative storytelling to design virtual environments that captivate audiences and offer interactive, impactful experiences. From training simulations to virtual product demos, our AR/VR solutions bring a new dimension to engagement.
                 </p>
                 <div className="text-[#ffffff] mt-[30px]">
                   <button className="text-[20px] px-[35px] font-handel bg-[#002BAA] rounded-full py-[10px] flex items-center justify-center">
@@ -324,7 +341,7 @@ export default function Page() { // Capitalize component name
 
         </div>
 
-        <div className="max-w-[1204px] mx-auto py-[30px]">
+        <div className="max-w-[1204px] mx-auto pt-[60px] p">
           <div className="text-[#ffffff] ">
             <button className="text-[20px] mx-auto px-[35px] font-handel bg-[#002BAA] rounded-full py-[10px] flex items-center justify-center">
               Browse all work <TbArrowRight className="ml-4" />
@@ -333,10 +350,10 @@ export default function Page() { // Capitalize component name
         </div>
       </div>
 
-      <div className="text-[#ffffff] max-w-[1440px] my-[50px] mx-auto  ">
-        <div className="sm:max-w-[817px] max-w-[378px]  mx-auto  flex items-center justify-center lg:px-[0px] px-[20px] ">
+      <div className="text-[#ffffff] max-w-[1440px] my-[50px] mx-auto   lg:px-[0px] px-[20px]">
+        <div className="sm:max-w-[817px] max-w-[378px]  mx-auto  flex items-center justify-center ">
           <div className=" text-center sm:mx-[0px] mx-[20px] ">
-            <h1 className="sm:font-bold font-handel lg:text-[52px]  sm:text-[42px] text-[26px] sm:leading-[58px] leading-[32px]">
+            <h1 className="sm:font-bold font-handel lg:text-[52px]  sm:text-[42px] text-[23px] sm:leading-[58px] leading-[32px]">
               Its Time Make Your Decision Business Growth
             </h1>
             <p className="sm:text-[18px] text-[14px] sm:leading-[30px] font-poppins leading-[20px] font-medium pt-[14px] sm:px-[0px] px-[40px]">
@@ -358,12 +375,15 @@ export default function Page() { // Capitalize component name
         </div>
       </div>
 
+
+
+
         {/* footer */}
       <div className="text-[#ffffff] sm:block hidden max-w-[1204px] xl:px-[0px] px-[30px]  my-[100px] mx-auto  ">
         <div className="">
-          <p className="text-[14px] font-poppins text-[#ffffff] ">
+          {/* <p className="text-[14px] font-poppins text-[#ffffff] ">
             Lorem Ipsum is simply dummy text of{" "}
-          </p>
+          </p> */}
           <ul className="text-[#ffffff] lg:text-[26px] text-[22px] mt-[20px] font-handel">
             <li>
               <a href="" className="pr-[23.50px] ">
@@ -394,7 +414,7 @@ export default function Page() { // Capitalize component name
 
             <div className="flex space-x-12">
               <a
-                href=""
+                href="https://www.instagram.com/businessx10x?igsh=MXVraGI0N2pqcTd3Mg=="
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center space-x-4"
@@ -403,7 +423,7 @@ export default function Page() { // Capitalize component name
                 <span className="text-[16px] font-poppins">Instagram</span>
               </a>
               <a
-                href=""
+                href="https://www.linkedin.com/company/business10x/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center space-x-4"
@@ -434,10 +454,10 @@ export default function Page() { // Capitalize component name
               className="  pt-[30px]"
               
             />
-          <p className="text-[16px] font-poppins font-medium pt-[10px] leading-[22px] text-[#ffffff] ">
+          {/* <p className="text-[16px] font-poppins font-medium pt-[10px] leading-[22px] text-[#ffffff] ">
             Lorem Ipsum is simply <br />
              dummy text of{" "}
-          </p>
+          </p> */}
 
           
           <Faq/>
@@ -448,7 +468,7 @@ export default function Page() { // Capitalize component name
           <div className="">
           <div className="flex space-x-6 justify-center items-center mx-auto">
               <a
-                href=""
+                href="https://www.instagram.com/businessx10x?igsh=MXVraGI0N2pqcTd3Mg=="
                 target="_blank"
                 rel="noopener noreferrer"
                 className=""
@@ -456,7 +476,7 @@ export default function Page() { // Capitalize component name
                 <FaInstagram className="w-9 h-9" />
               </a>
               <a
-                href=""
+                href="https://www.linkedin.com/company/business10x/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className=""

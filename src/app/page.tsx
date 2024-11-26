@@ -9,7 +9,7 @@ export default function Home() {
       <div className="max-w-[1440px] mx-auto overflow-hidden">
       <Navbar/>
       </div>
-      <div className="max-w-[1440px] mx-auto overflow-hidden">
+      <div className="w-full mx-auto overflow-hidden">
       <First/>
       </div>
       <div className="max-w-[1440px] mx-auto overflow-hidden">
